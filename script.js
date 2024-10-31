@@ -5,6 +5,5 @@ document.getElementById('sumBtn').addEventListener('click',
     const num2 =
     parseFloat(document.getElementById('num2').value);
     const sum = num1 + num2;
-    document.getElementById('result').textContent = 'Resultado:
-    + sum;
+    document.getElementById('result').textContent = 'Resultado: '+ sum;
     });
